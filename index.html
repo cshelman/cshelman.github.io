@@ -1,1 +1,315 @@
-Caden Shelman
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+<head>
+	<meta name="viewport" content="initial-scale=1,maximum-scale=1">
+	<title>Caden Shelman</title>
+	<link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Roboto:500' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	
+    <style>
+	.break {
+		clear: left;
+	}
+	header {
+		text-align: left;
+		padding-top: 20px;
+		padding-left: 80px;
+		padding-bottom: 30px;
+		background-color: #252525;
+	}
+	header #pageTitle {
+		text-transform: uppercase;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 500;
+		font-size: 38px;
+        color:rgb(228, 228, 228);
+	}
+    header #pageSubTitle {
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 500;
+		font-size: 24px;
+        color:rgb(228, 228, 228);
+	}
+	body {
+		background-color: rgb(255, 255, 255);
+		font-family: 'Lora', serif;
+        margin: 0;
+	}
+	.captionHeader {
+		font-family: 'Roboto', sans-serif;
+		padding-bottom: 13px;
+	}
+	.captionHeader .title {
+		font-weight: 500;
+		font-size: 23px;
+		color: #025373;
+	}
+	.captionHeader .subtitle {
+		font-size: 20px;
+		color: #4f81dd;
+	}
+	.captionHeader .year {
+		font-size: 16px;
+		color: #333;
+	}
+	.caption {
+		line-height: 175%;
+		/* background-color: #b68f8f; */
+        float: left;
+        width: 70%;
+	}
+	.imageTile {
+		color: black;
+		/* background-color: #a8a7a7; */
+		width: 10%;
+		margin: 2%;
+		margin-left: 3%;
+		padding: 1%;
+		float: left;
+	}
+	.textTile {
+		color: black;
+		/* background-color: #6b6b6b; */
+		width: 60%;
+        min-width: 400px;
+		margin: 1%;
+		margin-left: 0%;
+		padding: 2%;
+		float: left;
+	}
+    .techTile {
+		color: black;
+		/* background-color: #685a5a; */
+		width: 15%;
+        min-width: 190px;
+		margin-left: 5%;
+		padding: 0%;
+        line-height: 200%;
+		float: left;
+        color:rgb(34, 110, 209);
+	}
+	.aboutMe {
+		font-family: 'Roboto', sans-serif;
+		color: black;
+		background-color: #d8e2e8;
+		margin: 2%;
+		padding: 1%;
+	}
+	.aboutMe .title {
+		font-size: 23px;		    	
+		font-weight: 500;
+		color: #025373;
+		padding-bottom: 10px;				
+	}
+	.aboutMe .intro {
+		font-size: 15px;	
+		color: #006db3;    	
+		padding-bottom: 10px;				
+	}			
+	.aboutMe .activity {
+		font-size: 14px;	
+		line-height: 130%;		
+		vertical-align: middle;
+		padding-top: 10px;
+		padding-bottom: 10px;			
+	}		
+	.aboutMe .activity img {
+		float:left;
+		height: 90px;
+		margin-right:20px;
+		padding-top: 5px;
+		padding-bottom: 5px;			    
+		vertical-align:middle;
+	}
+	.aboutMe .activity span {
+		height: 110px;            
+		display: table-cell;
+		vertical-align: middle;
+	}
+	</style>
+
+</head>
+<body>
+    <header>
+        <div id="pageTitle">
+            Caden Shelman
+        </div>
+        <div id="pageSubTitle">
+            Software Developer
+        </div>
+    </header>
+
+    <section id="projects">
+        <div class="imageTile">
+            <img src="img/ISS_logo_light.jpg" style="width:100%; height:auto;">
+        </div>
+        <div class="textTile">
+            <div class="captionHeader">
+                <div class="title">
+                    Software Developer at INTEGRITY Security Services
+                </div>
+                <div class="subtitle">
+                    Security Credential Management Service Team
+                </div>
+                <div class="year">
+                    2020 (6 month co-op)
+                </div>
+            </div>
+            <div class="caption">
+                ISS provides a managed service for secure vehicle-to-vehicle and vehicle-to-roadside wireless communications. In the future, this technology will be used for crash avoidance communications between highway vehicles. The system dynamically issues security certificates as vehicles are enrolled and participate in the system.
+                <ul>
+                    <li>
+                        Built the telemetry system allowing engineers to monitor the flow of certificates through the system and give executives insight how the network is performing and who the network is serving.
+                    </li>
+                    <li>
+                        Added function points to system components (certificate authorities, registration authority) and rebuilt the associated test infrastructure.
+                    </li>
+                </ul>
+            </div>
+            <div class="techTile">
+                <ul style="list-style-type:none;">
+                    <li>Node.js</li>
+                    <li>Python</li>
+                    <li>AWS Lambda</li>
+                    <li>AWS CloudWatch</li>
+                    <li>AWS DynamoDB</li>
+                    <li>Mocha, Chai, Sinon</li>
+                    <li>HTML/CSS</li>
+                </ul>
+            </div>
+        </div>        
+        <div class="break"></div>
+
+        <div class="imageTile">
+            <img src="img/Canon_logo.png" style="width:100%; height:auto;">
+        </div>
+        <div class="textTile">
+            <div class="captionHeader">
+                <div class="title">
+                    Software Engineer at Canon U.S.A. Healthcare Optics Research Laboratory
+                </div>
+                <div class="subtitle">
+                    Image Guided Therapy: Needle Guidance System Team
+                </div>
+                <div class="year">
+                    2019 (6 month co-op)
+                </div>
+            </div>
+            <div class="caption">
+                Canon is developing a robotic device and image guidance platform to guide a needle within the chest or abdomen. This system increases the speed and accuracy of procedures such as the cryotherapy of kidney cancer.
+                <ul>
+                    <li>
+                        Made communications between robotic device and controller capable of dynamically switching across wireless communications technologies during a procedure.
+                    </li>
+                    <li>
+                        Modernized robotic kinematics code into a well-factored API that can be easily extended.
+                    </li>
+                    <li>
+                        Built a template system for auto-generating standardized documentation formats from the internal requirements system and original sources.
+                    </li>
+                </ul>
+            </div>
+            <div class="techTile">
+                <ul style="list-style-type:none;">
+                    <li>C++</li>
+                    <li>Ext JS</li>
+                    <li>Velocity</li>
+                    <li>Doxygen</li>
+                    <li>JAMA</li>
+                </ul>
+            </div>
+        </div>        
+        <div class="break"></div>
+
+        <div class="imageTile">
+            <img src="img/MFS_logo.png" style="width:100%; height:auto;">
+        </div>
+        <div class="textTile">
+            <div class="captionHeader">
+                <div class="title">
+                    DevOps Engineer at MFS Investment Management
+                </div>
+                <div class="subtitle">
+                    DevOps and Continuous Integration/Continuous Deployment Team
+                </div>
+                <div class="year">
+                    2018 (6 month co-op)
+                </div>
+            </div>
+            <div class="caption">
+                MFS is a financial services company with many software development teams, all relying on deployment pipelines and support provided by the CI/CD team.
+                <ul>
+                    <li>
+                        Evaluated all team’s codebases against the most common “OWASP Top 10” vulnerabilities and wrote the application security report for the head of information security.
+                    </li>
+                    <li>
+                        Created an audit generation tool which queries internal product REST APIs.
+                    </li>
+                    <li>
+                        Presented weekly to dev teams teaching best practices in CI/CD pipelines.
+                    </li>
+                    <li>
+                        Integrated CI/CD pipelines with Atlassian tools (Jira, Git/Bitbucket, Confluence).
+                    </li>
+                </ul>
+            </div>
+            <div class="techTile">
+                <ul style="list-style-type:none;">
+                    <li>JavaScript</li>
+                    <li>JQuery</li>
+                    <li>Jenkins</li>
+                    <li>SonarQube</li>
+                    <li>Atlassian Suite</li>
+                </ul>
+            </div>
+        </div>        
+        <div class="break"></div>
+
+        <div class="imageTile">
+            <img src="img/NEU_logo.webp" style="width:100%; height:auto;">
+        </div>
+        <div class="textTile">
+            <div class="captionHeader">
+                <div class="title">
+                    Bachelor of Science in Computer Science at Northeastern University
+                </div>
+                <div class="subtitle">
+                    Minor in Ethics
+                </div>
+                <div class="year">
+                    Grad. 2021
+                </div>
+            </div>
+            <div class="caption">
+                Artificial Intelligence (Capstone) • Software Development • Computer Systems • Networks and Distributed Systems • Algorithms & Data • Object Oriented Design • Cybersecurity • Logic & Computation
+            </div>
+            <div class="techTile">
+                <ul style="list-style-type:none;">
+                </ul>
+            </div>
+        </div>        
+        <div class="break"></div>
+    </section>
+
+    <section id="about">
+        <div class="aboutMe">
+            <div class="title">
+                About Me
+            </div>
+            <div class="intro">
+                Hi. I'm Caden. Here's how I like to spend my time:<p>
+            </div>
+            <div class="activity">
+                <img src="image/logoFencing.png">
+                <span>
+                    Fencing has been a part of my life since I was eight years old. It has been a big influence, teaching me about the benefit of practice, that balance occurs in life as well as in sport, and that losing is just something to learn from and move past. 
+                </span>
+            </div>				
+        </div>
+    </section>
+	</body>
+	</html>
