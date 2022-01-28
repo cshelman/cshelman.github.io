@@ -95,7 +95,7 @@
 	.aboutMe {
 		font-family: 'Roboto', sans-serif;
 		color: black;
-		background-color: #d8e2e8;
+		/* background-color: #d8e2e8; */
 		margin: 2%;
 		padding: 1%;
 	}
@@ -103,30 +103,36 @@
 		font-size: 23px;		    	
 		font-weight: 500;
 		color: #025373;
-		padding-bottom: 10px;				
+        padding: 10px;
+		padding-bottom: 10px;
+        background-color: #d8e2e8;			
 	}
 	.aboutMe .intro {
 		font-size: 15px;	
-		color: #006db3;    	
-		padding-bottom: 10px;				
+		color: #006db3;   
+        padding-left: 10px; 	
+		padding-bottom: 10px;
+        background-color: #d8e2e8;			
 	}			
 	.aboutMe .activity {
 		font-size: 14px;	
-		line-height: 130%;		
+		line-height: 160%;		
 		vertical-align: middle;
-		padding-top: 10px;
-		padding-bottom: 10px;			
-	}		
+		padding: 20px;
+        width: 40%;
+        color:#3b3b3b;
+	}
 	.aboutMe .activity img {
 		float:left;
-		height: 90px;
+		height: auto;
+        width: 70px;
 		margin-right:20px;
 		padding-top: 5px;
 		padding-bottom: 5px;			    
 		vertical-align:middle;
 	}
 	.aboutMe .activity span {
-		height: 110px;            
+		height: 80px;            
 		display: table-cell;
 		vertical-align: middle;
 	}
@@ -309,14 +315,26 @@
                 About Me
             </div>
             <div class="intro">
-                Hi. I'm Caden. Here's how I like to spend my time:<p>
+                Hey, I'm Caden. Here's how I like to spend my time:<p>
             </div>
             <div class="activity">
-                <img src="image/logoFencing.png">
+                <img src="img/fencing_logo.png">
                 <span>
-                    Fencing has been a part of my life since I was eight years old. It has been a big influence, teaching me about the benefit of practice, that balance occurs in life as well as in sport, and that losing is just something to learn from and move past. 
+                    Fencing has been a part of my life since I was 8 years old. From placing at national competitions and Junior Olympics to helping coach kids and running the fencing club at Northeastern, fencing has taught me a lot about practice, balancing life with work, and always learning from failures.
                 </span>
-            </div>				
+            </div>
+            <div class="activity">
+                <img src="img/chess_logo.png">
+                <span>
+                    I started playing chess during the 2021 quarantine, and while I still may not be very good at it, I enjoy it as an analytical outlet, a topic of depth to study, and a game I can keep improving at forever.
+                </span>
+            </div>
+            <div class="activity">
+                <img src="img/code_logo.png">
+                <span>
+                    Even after starting to code professionally, I still love to dig into new areas of programming. Whether that is picking up OpenGL to write a compute shader which runs on the GPU, or re-creating old arcade games to test a new language, I'm always chasing new interests through code.
+                </span>
+            </div>
         </div>
     </section>
 	</body>
