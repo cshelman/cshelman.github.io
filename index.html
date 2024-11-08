@@ -17,7 +17,7 @@
 	header {
 		text-align: left;
 		padding-top: 20px;
-		padding-left: 80px;
+		padding-left: 35px;
 		padding-bottom: 30px;
 		background-color: #252525;
         height: 110px;
@@ -43,7 +43,7 @@
     .sectionHeader {
 		font-family: 'Roboto';
 		font-weight: 400;
-		font-size: 30px;        
+		font-size: 28px;        
 		color: #252525;
 		padding-top: 35px;
 		padding-left: 25px;
@@ -55,7 +55,17 @@
         min-width: 800px;
 		margin: 1%;
 		margin-left: 0%;
-		padding-left: 2%;
+		padding-left: 35px;
+		float: left;
+	}    
+    .projectsTile {
+		color: black;
+		/* background-color: #6b6b6b; */
+		width: 100%;
+        min-width: 800px;
+		margin: 1%;
+		margin-left: 0%;
+		padding-left: 35px;
 		float: left;
 	}
     .flexContainer {
@@ -190,11 +200,11 @@
             <div class="caption">
                 I’ve been coding since I was 13 years old. I graduated with a BS in Computer Science from Northeastern University with concentrations on AI/machine learning, cybersecurity, and computer networks. I have professional experience working in development teams; designing/writing/reviewing code, creating build automation, and mentoring more junior programmers. After graduating I spent time abroad (EU and Asia) and have recently returned to the US
             </div>
-        </div>        
+        </div>
         <div class="break"></div>
     </section>
     
-    <section id="projects">
+    <section id="experience">
         <div class="sectionHeader">
             Professional Experience
         </div> 
@@ -354,6 +364,46 @@
                 </ul>
             </div>
         </div>        
+        <div class="break"></div>
+    </section>
+
+    <section id="projects">
+        <div class="sectionHeader">
+            Personal Projects <br>
+            <span style='font-size: 18px; color: #535353;'>
+                Just for fun/learning
+            </span>
+        </div>
+        <div class="projectsTile">
+            <div class="captionHeader">
+                <div class="title">
+                    Packet Analyser
+                </div>
+            </div>
+            <div class="caption">
+                Software to read data packets sent from a remote server to the local client program. Data is displayed in real time and added to a local DB following each event.
+                <br>
+                <span style='color:#226ed1;'>
+                    Python • C • SQLite
+                </span>
+            </div>
+        </div>
+        <div class="break"></div>
+
+        <div class="projectsTile">
+            <div class="captionHeader">
+                <div class="title">
+                    Graphics Programming
+                </div>
+            </div>
+            <div class="caption">
+                Post-processing compute shaders (e.g. Kuwahara filter, color dithering) to artistically stylize a scene while minimizing performance loss.
+                <br>
+                <span style='color:#226ed1;'>
+                    C# • Unity • DirectX HLSL
+                </span>
+            </div>
+        </div>
         <div class="break"></div>
     </section>
 
